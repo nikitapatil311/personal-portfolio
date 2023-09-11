@@ -211,6 +211,6 @@ nav ul li a:hover::after {
 }
 
 .tab-contents ul li span {
-  color: #f901fc;
+  color: var(--darkmode-solid-border);
   font-size: 14px;
 }
