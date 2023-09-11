@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 :root {
   --darkmode-solid-border: #f901fc;
@@ -31,7 +31,9 @@
 }
 
 html {
+  overflow-x: hidden !important;
   scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
 }
 
 .btn {
@@ -517,4 +519,4 @@ footer p {
 .nav-links li a {
   text-decoration: none;
   list-style-type: none;
-}
+} */
