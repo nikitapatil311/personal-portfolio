@@ -20,12 +20,6 @@
   --darkmode-solid-border: #9e9ed2;
 }
 
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden !important;
-  scroll-padding-top: 6rem;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -36,6 +30,11 @@ html {
 body {
   background: var(--darkmode-background-color);
   color: var(--darkmode-color);
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+  scroll-padding-top: 6rem;
 }
 
 #header {
@@ -136,4 +135,13 @@ nav ul li a:hover::after {
   border-radius: 10px;
   border-radius: 8px;
   margin-right: 10%;
+}
+
+.btn {
+  padding: 10px 10px 10px 10px;
+  background: var(--darkmode-background);
+  border-radius: 20px;
+  color: var(--darkmode-color);
+  text-decoration: none;
+  cursor: pointer;
 }
