@@ -14,6 +14,8 @@ function opentab(tabname) {
   for (let tabcontent of tabcontents) {
     tabcontent.classList.remove("active-tab");
   }
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
 }
 
 const typed = new Typed(".multipleText", {
