@@ -111,7 +111,8 @@ nav ul li a:hover::after {
   margin-top: 20px;
 }
 .header-text h1 p {
-  font-size: 30px;
+  font-size: 25px;
+  width: 80%;
 }
 
 .header-text span {
