@@ -11,11 +11,11 @@
     #e8e1e1 15%,
     #bdbdeb 100%
   );
-  --darkmode-color: linear-gradient(to bottom right, #e8e1e1 15%, #9e9ed2 100%);
+  --darkmode-color: linear-gradient(to bottom right, #d6cfcf 15%, #6a6a8f 100%);
   --darkmode-background: linear-gradient(
     to bottom right,
-    #e8e1e1 15%,
-    #9e9ed2 100%
+    #d6cfcf 15%,
+    #8b8baf 100%
   );
   --darkmode-solid-border: #9e9ed2;
 }
@@ -101,11 +101,18 @@ nav ul li a:hover::after {
 .header-text {
   margin-top: 20%;
   font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8%;
+  transform: translate(1%, -50%);
 }
 
 .header-text h1 {
   font-size: 60px;
   margin-top: 20px;
+}
+.header-text h1 p {
+  font-size: 30px;
 }
 
 .header-text span {
@@ -115,4 +122,18 @@ nav ul li a:hover::after {
   font-size: 40px;
   font-weight: bold;
   letter-spacing: 1.5px;
+  width: 300px;
+}
+
+.myimg {
+  border: 6px solid var(--darkmode-solid-border);
+  background-color: var(--darkmode-background-color);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  border-radius: 8px;
+  margin-right: 10%;
 }
