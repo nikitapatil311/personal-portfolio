@@ -4,6 +4,17 @@ function toggleMenu() {
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
+let tablinks = document.getElementsByClassName("tab-links");
+let tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+  for (let tablink of tablinks) {
+    tablink.classList.remove("active-link");
+  }
+  for (let tabcontent of tabcontents) {
+    tabcontent.classList.remove("active-tab");
+  }
+}
 
 const typed = new Typed(".multipleText", {
   strings: ["Full stack web developer", "FrontEnd Developer"],
