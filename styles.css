@@ -6,14 +6,15 @@
 }
 
 .light-theme {
-  --darkmode-background-color: #fff;
-  --darkmode-color: linear-gradient(to bottom right, #e1c3c3 15%, #aeaed3 100%);
+  --darkmode-solid-border: #fba1b7;
+  --darkmode-background-color: #fff0f5;
+  --darkmode-color: #000000;
   --darkmode-background: linear-gradient(
     to bottom right,
-    #d6cfcf 15%,
-    #8b8baf 100%
+    #ffd1da 15%,
+    #fba1b7 25%,
+    #fff0f5 100%
   );
-  --darkmode-solid-border: #9e9ed2;
 }
 
 * {
