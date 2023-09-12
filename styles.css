@@ -9,13 +9,13 @@
   --darkmode-background-color: linear-gradient(
     to bottom right,
     #e8e1e1 15%,
-    #f0f0ff 100%
+    #b9b9e6 100%
   );
-  --darkmode-color: linear-gradient(to bottom right, #ffffff 15%, #fbfbfb 100%);
+  --darkmode-color: linear-gradient(to bottom right, #e1c3c3 15%, #aeaed3 100%);
   --darkmode-background: linear-gradient(
     to bottom right,
-    #ffffff 15%,
-    #cbcbff 100%
+    #d6cfcf 15%,
+    #8b8baf 100%
   );
   --darkmode-solid-border: #9e9ed2;
 }
