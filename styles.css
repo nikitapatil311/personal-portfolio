@@ -23,7 +23,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
   box-sizing: border-box;
 }
 
@@ -183,6 +183,10 @@ nav ul li a:hover::after {
   font-weight: 600;
   color: var(--darkmode-color);
 }
+.sub-p {
+  margin-top: 20px;
+  font-size: 20px;
+}
 
 .tab-titles {
   display: flex;
@@ -195,6 +199,7 @@ nav ul li a:hover::after {
   font-weight: 500;
   cursor: pointer;
   position: relative;
+  color: var(--darkmode-solid-border);
 }
 
 .tab-links::after {
