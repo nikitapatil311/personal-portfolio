@@ -25,7 +25,7 @@ function openmenu() {
 }
 
 function closemenu() {
-  sidemeu.style.right = "200px";
+  sidemeu.style.right = "-200px";
 }
 
 const typed = new Typed(".multipleText", {

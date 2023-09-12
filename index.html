@@ -12,8 +12,9 @@
 </head>
 
 <body>
+
     <div id="header">
-        <div id="container">
+        <div class="container">
             <nav>
                 <a href="/" class="logo">Portfolio</a>
 
@@ -32,267 +33,271 @@
             </nav>
 
             <div class="header-text">
-                <h1>
-                    <p>Hello, I'm</p>
-                    <span> Nikita S Patil</span><br />
-                    <span class="multipleText"></span>
-                    <p>
-                        Enthusiastic frontend developer, B.E. (E&C) graduate from VTU
-                        University aiming to secure a Frontend Developer position,<br />
-                        eager to acquire firsthand experience in web development and play
-                        a pivotal role in pioneering web solutions within a dynamic and
-                        rapidly changing environment.
-                    </p>
 
-                    <a href="/Nikita Patil.pdf" class="btn btn2">Download CV <i
-                            class="fa-solid fa-download fas"></i></a>
-                    <br>
-                    <a href="https://www.linkedin.com/in/nikita-s-patil/" class="btn btn2">Hire Me <i
-                            class="fa-regular fa-hand-pointer fas"></i></a>
-                </h1>
+                <p>Hello, I'm</p>
+
+                <span> Nikita S Patil</span><br />
+                <span class="multipleText"></span>
+
+
+                <p>
+                    Enthusiastic frontend developer, B.E. (E&C) graduate from VTU
+                    University aiming to secure a Frontend Developer position,<br />
+                    eager to acquire firsthand experience in web development and play
+                    a pivotal role in pioneering web solutions within a dynamic and
+                    rapidly changing environment.
+                </p>
+
+
+                <a href="/Nikita Patil.pdf" class="btn btn2">Download CV <i class="fa-solid fa-download fas"></i></a>
+                <br>
+                <a href="https://www.linkedin.com/in/nikita-s-patil/" class="btn btn2">Hire Me <i
+                        class="fa-regular fa-hand-pointer fas"></i></a>
+
                 <!-- <div class="hero-img"> -->
                 <img class="myimg" src="/MyPic.jpg" alt="my picture" height="400px" width="300px" />
                 <!-- </div> -->
             </div>
+        </div>
+    </div>
 
-            <!-- ------------about-------------- -->
 
-            <div id="about">
-                <div class="container">
-                    <div class="row">
-                        <div class="about-col-1">
-                            <img src="/phone.jpg" alt="profile-pic" />
-                        </div>
-                        <div class="about-col-2">
-                            <h1 class="sub-title">About Me</h1>
-                            <p class="sub-p">
-                                🚀 Embarked on a 2-year journey in the captivating world of
-                                frontend at L&T Technology Services and Harman Connected
-                                Services! 🌟
-                                <br />
-                                🎨 Equipped with HTML, CSS, JS, React, Next.js, Node.js and
-                                MongoDB, I've turned visions into vibrant websites. Crafting
-                                user-friendly designs that resonate.
-                                <br />
-                                🌐 Thriving in collaborative ecosystems, where ideas thrive.
-                                Whether with colleagues or pixels, my journey has been woven
-                                with vibrant connections.
-                                <br />
-                                🚀 From agile development to innovative pulses, I've turned
-                                concepts into realities. Every project hones my artistry,
-                                creating standout user experiences.
-                                <br />
-                                💡 Curiosity guides me, creativity fuels me. Passion for
-                                enhancing web presence drives me, blending beauty with
-                                function seamlessly.
-                                <br />
-                                💬 Let's connect and explore the world of web enchantment!
-                                🎨✨<br />
-                            </p>
-                            <div class="tab-titles">
-                                <p class="tab-links active-link" onclick="opentab('skills')">
-                                    Skills
-                                </p>
-                                <p class="tab-links" onclick="opentab('experience')">
-                                    Experience
-                                </p>
-                                <p class="tab-links" onclick="opentab('education')">
-                                    Education
-                                </p>
-                            </div>
-                            <div class="tab-contents active-tab" id="skills">
-                                <ul>
-                                    <li><span>HTML</span><br />Experienced</li>
-                                    <li><span>CSS</span><br />Experienced</li>
-                                    <li><span>JavaScript</span><br />Intermediate</li>
-                                    <li><span>React</span><br />Intermediate</li>
-                                    <li><span>TypeScript</span><br />Basic</li>
-                                    <li><span>Next.js</span><br />Intermediate</li>
-                                    <li><span>Tailwind CSS</span><br />Intermediate</li>
-                                    <li><span>MongoDB</span><br />Intermediate</li>
-                                    <li><span>Node JS</span><br />Intermediate</li>
-                                    <li><span>Git and GitHub</span><br />Intermediate</li>
-                                </ul>
-                            </div>
 
-                            <div class="tab-contents" id="experience">
-                                <ul>
-                                    <li>
-                                        <span>Jul 2021- Sep 2022</span><br />Junior Software
-                                        Engineer at L&T Technology Services.
-                                    </li>
-                                    <li>
-                                        <span>Feb 2019- Jul 2021</span><br />Associate Software
-                                        Engineer at Harman Connected Services.
-                                    </li>
-                                </ul>
-                            </div>
+    <!-- ------------about-------------- -->
 
-                            <div class="tab-contents" id="education">
-                                <ul>
-                                    <li>
-                                        <span>July 2014- July 2018</span><br />Bachelors Degree in
-                                        Electronics and Communication at Bangalore Institute of
-                                        Technology
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="phone.jpg" alt="profile-pic" />
                 </div>
-            </div>
-
-            <!-- --------------------------Services---------------------------- -->
-            <div id="services">
-                <div class="container">
-                    <h1 class="sub-title">My Services</h1>
-
-                    <div class="services-list">
-                        <div>
-                            <i class="fa-solid fa-code"></i>
-                            <h2>Web Development</h2>
-                            <p>
-                                Developed internal inventory app using Next.js and MongoDB,
-                                integrating barcode scanning for real-time tracking. Managed
-                                the inventory data using MongoDB, reducing the risk of items
-                                being misplaced. Created user guides and technical
-                                documentation for onboarding new members.
-                            </p>
-                            Technologies used: HTML5, CSS3, JavaScript, Next.js, MongoDB,
-                            Redux, Tailwind CSS, Git.
-                            <a href="#"></a>
-                        </div>
-
-                        <div>
-                            <i class="fa-solid fa-crop"></i>
-
-                            <h2>UI Developer</h2>
-                            <p>
-                                Contributed to interactive e-commerce web pages, translating
-                                (Figma, Mockup) wireframes to dynamic code. Collaborated with
-                                teams using Git/GitHub for version control, code reviews and
-                                conflict resolution. Technologies used: HTML5, CSS3, Git,
-                                JIRA.
-                            </p>
-                            <a href="#"></a>
-                        </div>
-
-                        <div>
-                            <i class="fa-solid fa-bug"></i>
-
-                            <h2>Agile Tester</h2>
-                            <p>
-                                Performed various testing types in Agile environment,
-                                including smoke, functional, and regression testing on Windows
-                                and Linux OS. Expertise in bug reporting and tracking using
-                                JIRA, involved in debugging and root cause analysis.
-                            </p>
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- --------------------------Projects---------------------------- -->
-            <div id="portfolio">
-                <div class="container">
-                    <h1 class="sub-title">Personal Projects</h1>
-                    <div class="work-list">
-                        <div class="work">
-                            <img src="/groceryGif.png" alt="Project 1" class="project-img" />
-                            <div class="layer">
-                                <h3>Any-List Grocery Shopping App 🛍️</h3>
-                                <p>
-                                    A shopping app to revolutionise shopping convenience. Which
-                                    allows you to shop for groceries online and even make quick
-                                    offline purchases by scanning items and paying on the go.
-                                </p>
-                                <a href="https://any-list.vercel.app/"><i
-                                        class="fa-solid fa-arrow-up-right-from-square"></i>Live
-                                    Demo</a>
-                                <a href="https://github.com/nikitapatil311/AnyList"><i
-                                        class="fa-solid fa-arrow-up-right-from-square"></i>Github code</a>
-                            </div>
-                        </div>
-                        <div class="work">
-                            <img src="/rickandmorty.png" alt="Project 2" class="project-img" />
-                            <div class="layer">
-                                <h3>Ricky and Morty</h3>
-                                <p>
-                                    The Rick and Morty App is a collaborative project that pays
-                                    tribute to the iconic animated series. It features a
-                                    collection of character cards, each providing unique
-                                    insights into the diverse cast of the show. With 42 pages of
-                                    cards, there's no shortage of content to explore!
-                                </p>
-                                <a href="https://ricky-morty-app-khaki.vercel.app/"><i
-                                        class="fa-solid fa-arrow-up-right-from-square"></i>Live
-                                    Demo</a>
-                                <a href="https://github.com/nikitapatil311/Ricky-Morty-App"><i
-                                        class="fa-solid fa-arrow-up-right-from-square"></i>Github code</a>
-                            </div>
-                        </div>
-                        <div class="work">
-                            <img src="/turio.png" alt="Project 3" class="project-img" />
-                            <div class="layer">
-                                <h3>Tourio App</h3>
-                                <p>
-                                    Tourio App is designed to provide a user-friendly interface
-                                    for managing travel places. Each place entry includes
-                                    essential details such as the place's name, description,
-                                    image, and location.
-                                </p>
-                                <a href="https://tourio-app-theta.vercel.app/"><i
-                                        class="fa-solid fa-arrow-up-right-from-square"></i>Live
-                                    Demo</a>
-                                <a href="https://github.com/nikitapatil311/tourio-app"><i
-                                        class="fa-solid fa-arrow-up-right-from-square"></i>Github code</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ----------------------------Contact---------------------------------- -->
-            <div id="contact">
-                <div class="container">
-                    <div class="row">
-                        <div class="contact-left">
-                            <h1 class="" sub-title>Contact Me</h1>
-                            <p>
-                                <i class="fa-solid fa-paper-plane"></i>
-                                nikitaspatil311@gmail.com
-                            </p>
-                            <div class="social-icons">
-                                <a href="https://www.linkedin.com/in/nikita-s-patil/"><i
-                                        class="fa-brands fa-linkedin"></i></a>
-                                <a href="https://github.com/nikitapatil311"><i class="fa-brands fa-github"></i></a>
-                                <a href="https://www.instagram.com/nikita_.s._patil/"><i
-                                        class="fa-brands fa-instagram"></i></a>
-                                <!-- <a href="https://www.youtube.com/channel/UCeKqFJSTvMcMUU4ivVf5LjA"><i
-                                        class="fa-brands fa-youtube"></i></a> -->
-                            </div>
-                            <!-- <a href="/Nikita Patil.pdf" class="btn btn2">Download CV</a> -->
-                        </div>
-                        <div class="contact-right">
-                            <form>
-                                <input type="text" name="Name" placeholder="Your Name" required />
-                                <input type="email" name="email" placeholder="Your Email" required />
-                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                                <button type="submit" class="btn btn2">Submit</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="copywrite">
-                    <p>
-                        Copyright &#169; 2023 Nikita S Patil. All Rights Reserved
-                        <i class="fa-solid fa-heart"></i>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="sub-p">
+                        🚀 Embarked on a 2-year journey in the captivating world of
+                        frontend at L&T Technology Services and Harman Connected
+                        Services! 🌟
+                        <br />
+                        🎨 Equipped with HTML, CSS, JS, React, Next.js, Node.js and
+                        MongoDB, I've turned visions into vibrant websites. Crafting
+                        user-friendly designs that resonate.
+                        <br />
+                        🌐 Thriving in collaborative ecosystems, where ideas thrive.
+                        Whether with colleagues or pixels, my journey has been woven
+                        with vibrant connections.
+                        <br />
+                        🚀 From agile development to innovative pulses, I've turned
+                        concepts into realities. Every project hones my artistry,
+                        creating standout user experiences.
+                        <br />
+                        💡 Curiosity guides me, creativity fuels me. Passion for
+                        enhancing web presence drives me, blending beauty with
+                        function seamlessly.
+                        <br />
+                        💬 Let's connect and explore the world of web enchantment!
+                        🎨✨<br />
                     </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                            Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('experience')">
+                            Experience
+                        </p>
+                        <p class="tab-links" onclick="opentab('education')">
+                            Education
+                        </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br />Experienced</li>
+                            <li><span>CSS</span><br />Experienced</li>
+                            <li><span>JavaScript</span><br />Intermediate</li>
+                            <li><span>React</span><br />Intermediate</li>
+                            <li><span>TypeScript</span><br />Basic</li>
+                            <li><span>Next.js</span><br />Intermediate</li>
+                            <li><span>Tailwind CSS</span><br />Intermediate</li>
+                            <li><span>MongoDB</span><br />Intermediate</li>
+                            <li><span>Node JS</span><br />Intermediate</li>
+                            <li><span>Git and GitHub</span><br />Intermediate</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>Jul 2021- Sep 2022</span><br />Junior Software
+                                Engineer at L&T Technology Services.
+                            </li>
+                            <li>
+                                <span>Feb 2019- Jul 2021</span><br />Associate Software
+                                Engineer at Harman Connected Services.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>July 2014- July 2018</span><br />Bachelors Degree in
+                                Electronics and Communication at Bangalore Institute of
+                                Technology
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- --------------------------Services---------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>
+                        Developed internal inventory app using Next.js and MongoDB,
+                        integrating barcode scanning for real-time tracking. Managed
+                        the inventory data using MongoDB, reducing the risk of items
+                        being misplaced. Created user guides and technical
+                        documentation for onboarding new members.
+                    </p>
+                    Technologies used: HTML5, CSS3, JavaScript, Next.js, MongoDB,
+                    Redux, Tailwind CSS, Git.
+                    <a href="#"></a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+
+                    <h2>UI Developer</h2>
+                    <p>
+                        Contributed to interactive e-commerce web pages, translating
+                        (Figma, Mockup) wireframes to dynamic code. Collaborated with
+                        teams using Git/GitHub for version control, code reviews and
+                        conflict resolution. Technologies used: HTML5, CSS3, Git,
+                        JIRA.
+                    </p>
+                    <a href="#"></a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-bug"></i>
+
+                    <h2>Agile Tester</h2>
+                    <p>
+                        Performed various testing types in Agile environment,
+                        including smoke, functional, and regression testing on Windows
+                        and Linux OS. Expertise in bug reporting and tracking using
+                        JIRA, involved in debugging and root cause analysis.
+                    </p>
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------------Projects---------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Personal Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/groceryGif.png" alt="Project 1" class="project-img" />
+                    <div class="layer">
+                        <h3>Any-List Grocery Shopping App 🛍️</h3>
+                        <p>
+                            A shopping app to revolutionise shopping convenience. Which
+                            allows you to shop for groceries online and even make quick
+                            offline purchases by scanning items and paying on the go.
+                        </p>
+                        <a href="https://any-list.vercel.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i>Live
+                            Demo</a>
+                        <a href="https://github.com/nikitapatil311/AnyList"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i>Github code</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/rickandmorty.png" alt="Project 2" class="project-img" />
+                    <div class="layer">
+                        <h3>Ricky and Morty</h3>
+                        <p>
+                            The Rick and Morty App is a collaborative project that pays
+                            tribute to the iconic animated series. It features a
+                            collection of character cards, each providing unique
+                            insights into the diverse cast of the show. With 42 pages of
+                            cards, there's no shortage of content to explore!
+                        </p>
+                        <a href="https://ricky-morty-app-khaki.vercel.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i>Live
+                            Demo</a>
+                        <a href="https://github.com/nikitapatil311/Ricky-Morty-App"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i>Github code</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/turio.png" alt="Project 3" class="project-img" />
+                    <div class="layer">
+                        <h3>Tourio App</h3>
+                        <p>
+                            Tourio App is designed to provide a user-friendly interface
+                            for managing travel places. Each place entry includes
+                            essential details such as the place's name, description,
+                            image, and location.
+                        </p>
+                        <a href="https://tourio-app-theta.vercel.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i>Live
+                            Demo</a>
+                        <a href="https://github.com/nikitapatil311/tourio-app"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i>Github code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------Contact---------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="" sub-title>Contact Me</h1>
+                    <p>
+                        <i class="fa-solid fa-paper-plane"></i>
+                        nikitaspatil311@gmail.com
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/nikita-s-patil/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/nikitapatil311"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/nikita_.s._patil/"><i class="fa-brands fa-instagram"></i></a>
+                        <!-- <a href="https://www.youtube.com/channel/UCeKqFJSTvMcMUU4ivVf5LjA"><i
+                                        class="fa-brands fa-youtube"></i></a> -->
+                    </div>
+                    <!-- <a href="/Nikita Patil.pdf" class="btn btn2">Download CV</a> -->
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required />
+                        <input type="email" name="email" placeholder="Your Email" required />
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copywrite">
+            <p>
+                Copyright &#169; 2023 Nikita S Patil. All Rights Reserved
+                <i class="fa-solid fa-heart"></i>
+            </p>
+        </div>
+    </div>
+
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="script.js"></script>
 </body>
