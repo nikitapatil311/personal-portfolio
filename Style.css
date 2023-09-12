@@ -338,3 +338,14 @@ nav ul li a:hover::after {
 }
 
 /* -------------------Contact------------------- */
+.contact-left {
+  flex-basis: 35%;
+}
+
+.contact-right {
+  flex-basis: 60%;
+}
+
+.contact-left p {
+  margin-top: 30px;
+}
