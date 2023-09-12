@@ -38,6 +38,8 @@ html {
 }
 
 #header {
+  margin: 10px;
+  padding: 50px 50px 50px 50px;
   width: 100%;
   height: 100vh;
   background: var(--darkmode-background-color);
@@ -449,8 +451,10 @@ nav .fas {
 
 /* ------------------------Small Screen CSS------------------------------ */
 @media only screen and (max-width: 600px) {
+  /* background-image: url(/MyPic.jpg); */
   #header {
-    /* background-image: url(/MyPic.jpg); */
+    margin: 10px;
+    padding: 50px 50px 50px 50px;
   }
   .header-text {
     margin-top: 100%;
@@ -458,6 +462,8 @@ nav .fas {
     display: block;
   }
   .header-text h1 {
+    display: inline-block;
+    margin-top: 50%;
     font-size: 30px;
   }
   nav .fas {
