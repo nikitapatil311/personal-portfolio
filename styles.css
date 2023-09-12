@@ -378,10 +378,9 @@ nav ul li a:hover::after {
   color: var(--darkmode-solid-border);
   transform: translateY(-5px);
 }
+
 .btn.btn2 {
   display: inline-block;
-}
-.btn.btn2 {
   color: var(--darkmode-color);
   text-decoration: none;
   font-size: 18px;
@@ -512,11 +511,7 @@ nav .fas {
   }
   .btn.btn2 {
     width: 150px;
-    margin-top: 20px;
-    text-align: center;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
+    margin-top: 40px;
   }
 
   nav {
