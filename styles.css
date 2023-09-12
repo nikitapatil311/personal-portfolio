@@ -6,14 +6,13 @@
 }
 
 .light-theme {
-  --darkmode-solid-border: #fba1b7;
-  --darkmode-background-color: #fff0f5;
-  --darkmode-color: #000000;
+  --darkmode-solid-border: #aac4ff;
+  --darkmode-background-color: #eef1ff;
+  --darkmode-color: #14141f;
   --darkmode-background: linear-gradient(
     to bottom right,
-    #ffd1da 15%,
-    #fba1b7 25%,
-    #fff0f5 100%
+    #a4b2f4 15%,
+    #565c77 25%
   );
 }
 
