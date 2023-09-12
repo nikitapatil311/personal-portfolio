@@ -399,3 +399,17 @@ form .btn2 {
   margin-top: 20px;
   cursor: pointer;
 }
+
+.copywrite {
+  text-align: center;
+  width: 100%;
+
+  margin-top: 20px;
+
+  background: var(--darkmode-background-color);
+  font-weight: 300;
+}
+
+.copywrite i {
+  color: var(--darkmode-color);
+}
