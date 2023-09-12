@@ -513,6 +513,7 @@ nav .fas {
   .myimg {
     height: fit-content;
     width: 60vw;
+    height: 40vh;
     margin: inherit;
   }
 
