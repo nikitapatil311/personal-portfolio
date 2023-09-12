@@ -110,9 +110,14 @@ nav ul li a:hover::after {
   font-size: 60px;
   margin-top: 20px;
 }
-.header-text h1 p {
-  font-size: 25px;
+.header-text p {
+  font-size: 18px;
   width: 80%;
+}
+
+.header-text a {
+  font-size: 18px;
+  width: 10%;
 }
 
 .header-text span {
@@ -403,11 +408,12 @@ form .btn2 {
 .copywrite {
   text-align: center;
   width: 100%;
+  padding: 25px 0;
 
   margin-top: 20px;
 
-  background: var(--darkmode-background-color);
   font-weight: 300;
+  background-color: var(--darkmode-color);
 }
 
 .copywrite i {
