@@ -372,3 +372,23 @@ nav ul li a:hover::after {
   color: var(--darkmode-solid-border);
   transform: translateY(-5px);
 }
+.btn.btn2 {
+  display: inline-block;
+}
+
+.contact-right form {
+  width: 100%;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: var(--darkmode-color);
+  padding: 15px;
+  margin: 15px 0;
+  color: var(--darkmode-solid-border);
+  font-size: 18px;
+  border-radius: 6px;
+}
