@@ -11,7 +11,7 @@
     #e8e1e1 15%,
     #bdbdeb 100%
   );
-  --darkmode-color: linear-gradient(to bottom right, #d6cfcf 15%, #6a6a8f 100%);
+  --darkmode-color: linear-gradient(to bottom right, #ffffff 15%, #cbcbff 100%);
   --darkmode-background: linear-gradient(
     to bottom right,
     #d6cfcf 15%,
