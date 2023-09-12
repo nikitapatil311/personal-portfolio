@@ -349,3 +349,21 @@ nav ul li a:hover::after {
 .contact-left p {
   margin-top: 30px;
 }
+
+.contact-left p i {
+  color: var(--darkmode-solid-border);
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons {
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: var(--darkmode-solid-border);
+  display: inline-block;
+}
