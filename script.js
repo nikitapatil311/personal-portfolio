@@ -65,6 +65,7 @@ window.addEventListener("scroll", function () {
 //   menu.classList.remove("fa-solid");
 //   navlist.classList.remove("active");
 // };
+
 let menu = document.querySelector("#menu-icon");
 let navlist = document.querySelector(".navlist");
 let circleIcon = document.querySelector(".fa-circle-xmark");
