@@ -734,3 +734,9 @@ nav .fas {
     right: 0;
   }
 }
+
+@media (max-width: 400px) {
+  .main-content h4 {
+    margin-top: 10px;
+  }
+}
