@@ -66,16 +66,19 @@ window.addEventListener("scroll", function () {
 //   navlist.classList.remove("fa-regular");
 // };
 
-let menu = document.querySelector("#menu-icon");
+let menuIcon = document.querySelector("#menu-icon");
 let navlist = document.querySelector(".navlist");
+let slider = document.querySelector("#slider"); // Replace with your slider selector
 
-menu.onclick = () => {
-  menu.classList.toggle("fa-bars");
-  menu.classList.toggle("fa-times");
-  navlist.classList.toggle("active"); // Toggle the "active" class on navlist
+menuIcon.onclick = () => {
+  menuIcon.classList.toggle("fa-bars");
+  menuIcon.classList.toggle("fa-times");
+  navlist.classList.toggle("active");
+  slider.classList.add("active"); // Show the slider when the menu is clicked
 };
 
 window.onscroll = () => {
-  menu.classList.remove("fa-times");
-  navlist.classList.remove("active"); // Remove the "active" class on scroll
+  menuIcon.classList.remove("fa-times");
+  navlist.classList.remove("active");
+  slider.classList.remove("active"); // Hide the slider on scroll
 };
