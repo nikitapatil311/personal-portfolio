@@ -21,12 +21,54 @@
   padding: 0;
   font-family: sans-serif;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* madechanges  */
+  text-decoration: none;
+  list-style: none;
 }
 
 body {
   background: var(--darkmode-background-color);
   color: var(--darkmode-color);
 }
+/* here */
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 16%;
+  background: transparent;
+  transition: all 0.5s ease;
+}
+.navlist {
+  display: flex;
+}
+.navlist a {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--darkmode-color);
+  margin-left: 40px;
+  transition: all 0.5s ease;
+}
+
+.navlist a:hover {
+  color: var(--darkmode-color);
+}
+#menu-icon {
+  font-size: 35px;
+  z-index: 10001;
+  cursor: pointer;
+  display: none;
+}
+section {
+  padding: 110px 16% 90px;
+}
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden !important;
@@ -55,6 +97,8 @@ nav {
 }
 .logo {
   width: 140px;
+  font-size: 36px;
+  font-weight: 600;
 }
 
 nav ul li {
