@@ -53,15 +53,30 @@ window.addEventListener("scroll", function () {
   header.classList.toggle("sticky", this.window.screenY > 120);
 });
 
+// let menu = document.querySelector("#menu-icon");
+// let navlist = document.querySelector(".navlist");
+
+// menu.onclick = () => {
+//   menu.classList.toggle("fa-solid");
+//   navlist.classList.toggle("active");
+// };
+
+// window.onscroll = () => {
+//   menu.classList.remove("fa-solid");
+//   navlist.classList.remove("active");
+// };
 let menu = document.querySelector("#menu-icon");
 let navlist = document.querySelector(".navlist");
+let circleIcon = document.querySelector(".fa-circle-xmark");
 
 menu.onclick = () => {
-  menu.classList.toggle("fa-solid");
+  menu.classList.toggle("fa-bars");
+  menu.classList.toggle("fa-times");
   navlist.classList.toggle("active");
+  circleIcon.classList.toggle("fa-regular");
 };
 
 window.onscroll = () => {
-  menu.classList.remove("fa-solid");
   navlist.classList.remove("active");
+  circleIcon.classList.remove("fa-regular");
 };
