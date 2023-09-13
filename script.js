@@ -53,37 +53,15 @@ window.addEventListener("scroll", function () {
   header.classList.toggle("sticky", this.window.screenY > 120);
 });
 
-// let menu = document.querySelector("#menu-icon");
-// let navlist = document.querySelector(".navlist");
-
-// menu.onclick = () => {
-//   menu.classList.toggle("fa-solid");
-//   navlist.classList.toggle("fa-regular");
-// };
-
-// window.onscroll = () => {
-//   menu.classList.remove("fa-solid");
-//   navlist.classList.remove("fa-regular");
-// };
-
-let menuIcon = document.querySelector("#menu-icon");
+let menu = document.querySelector("#menu-icon");
 let navlist = document.querySelector(".navlist");
-let slider = document.querySelector("#slider");
-let menuContainer = document.querySelector("#menu-container");
 
-menuIcon.onclick = () => {
-  menuIcon.classList.toggle("fa-bars");
-  menuIcon.classList.toggle("fa-times");
+menu.onclick = () => {
+  menu.classList.toggle("bx-x");
   navlist.classList.toggle("active");
-  menuContainer.classList.toggle("open");
-  slider.classList.toggle("active");
 };
 
 window.onscroll = () => {
-  if (!menuContainer.classList.contains("open")) {
-    // Close the slider if it's not already closed
-    menuIcon.classList.remove("fa-times");
-    navlist.classList.remove("active");
-    slider.classList.remove("active");
-  }
+  menu.classList.remove("bx-x");
+  navlist.classList.remove("active");
 };

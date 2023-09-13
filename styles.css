@@ -75,27 +75,6 @@ section {
   padding: 110px 16% 90px;
 }
 /* Add your styles for hiding and showing the slider */
-.slider {
-  /* Adjust the styles to show the slider */
-  transform: translateX(100%); /* Initially move the slider to the right */
-  transition: transform 0.3s ease-in-out;
-}
-
-.slider.active {
-  transform: translateX(
-    0
-  ); /* Show the slider by moving it back to its original position */
-}
-
-/* Add styles to control the visibility of the menu when slider is active */
-#menu-container {
-  overflow: hidden;
-}
-
-#menu-container.open {
-  max-width: 100%; /* Expand the container to show the menu */
-  transition: max-width 0.3s ease-in-out;
-}
 
 .hero {
   height: 100vh;
