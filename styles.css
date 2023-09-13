@@ -739,4 +739,8 @@ nav .fas {
   .hero {
     margin-top: 15%;
   }
+
+  header {
+    position: sticky;
+  }
 }
