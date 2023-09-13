@@ -45,3 +45,9 @@ sun.onclick = function () {
     sun.src = "/sun.png";
   }
 };
+
+const header = document.querySelector("header");
+
+window.addEventListener("scroll", function () {
+  header.classList.toggle("sticky", this.window.screenY > 120);
+});
