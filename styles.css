@@ -80,6 +80,27 @@ section {
   justify-content: flex-start;
 }
 
+.main-content h4 {
+  font-size: 1.6rem;
+}
+
+.main-content h1 {
+  font-size: 60px;
+  font-weight: 900;
+  margin: 20px 0px 20px;
+  line-height: 1.2;
+}
+
+.main-content p {
+  font-size: 20px;
+  font-weight: 400;
+  width: 620px;
+  max-width: 100%;
+  color: var(--darkmode-color);
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden !important;
