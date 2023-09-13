@@ -724,6 +724,31 @@ nav .fas {
 }
 
 @media (max-width: 950px) {
+  .hero {
+    margin-top: 25%;
+  }
+
+  header {
+    position: sticky;
+  }
+  .navlist {
+    display: none;
+  }
+
+  .navlist.active {
+    display: block;
+  }
+  .main-content h1 {
+    font-size: 15px;
+    line-height: 1;
+  }
+  .main-content span {
+    font-size: 12px;
+    line-height: 1;
+  }
+  .main-content p {
+    width: 55%;
+  }
   #menu-icon {
     display: block;
   }
