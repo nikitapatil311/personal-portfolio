@@ -728,4 +728,7 @@ nav .fas {
     padding: 17px;
     font-size: 22px;
   }
+  .navlist.active {
+    right: 0;
+  }
 }
