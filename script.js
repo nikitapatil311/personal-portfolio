@@ -18,15 +18,15 @@ function opentab(tabname) {
   document.getElementById(tabname).classList.add("active-tab");
 }
 
-var sidemeu = document.getElementById("sidemenu");
+// var sidemeu = document.getElementById("sidemenu");
 
-function openmenu() {
-  sidemeu.style.right = "0";
-}
+// function openmenu() {
+//   sidemeu.style.right = "0";
+// }
 
-function closemenu() {
-  sidemeu.style.right = "-200px";
-}
+// function closemenu() {
+//   sidemeu.style.right = "-200px";
+// }
 
 const typed = new Typed(".multipleText", {
   strings: ["Full stack web developer", "FrontEnd Developer"],
@@ -55,12 +55,13 @@ window.addEventListener("scroll", function () {
 
 let menu = document.querySelector("#menu-icon");
 let navlist = document.querySelector(".navlist");
+
 menu.onclick = () => {
-  menu.classList.toggle("bx-x");
-  navlist.classList.toggle("active");
+  menu.classList.toggle("fa-solid");
+  navlist.classList.toggle("fa-regular");
 };
 
 window.onscroll = () => {
-  menu.classList.remove("bx-x");
-  navlist.classList.remove("active");
+  menu.classList.remove("fa-solid");
+  navlist.classList.remove("fa-regular");
 };
