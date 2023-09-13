@@ -77,6 +77,7 @@ menu.onclick = () => {
 };
 
 window.onscroll = () => {
+  menu.classList.toggle("fa-bars");
   menu.classList.remove("fa-times");
   navlist.classList.remove("active");
   circleIcon.classList.remove("fa-regular");
