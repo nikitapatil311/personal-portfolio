@@ -68,17 +68,22 @@ window.addEventListener("scroll", function () {
 
 let menuIcon = document.querySelector("#menu-icon");
 let navlist = document.querySelector(".navlist");
-let slider = document.querySelector("#slider"); // Replace with your slider selector
+let slider = document.querySelector("#slider");
+let menuContainer = document.querySelector("#menu-container");
 
 menuIcon.onclick = () => {
   menuIcon.classList.toggle("fa-bars");
   menuIcon.classList.toggle("fa-times");
   navlist.classList.toggle("active");
-  slider.classList.add("active"); // Show the slider when the menu is clicked
+  menuContainer.classList.toggle("open");
+  slider.classList.toggle("active");
 };
 
 window.onscroll = () => {
-  menuIcon.classList.remove("fa-times");
-  navlist.classList.remove("active");
-  slider.classList.remove("active"); // Hide the slider on scroll
+  if (!menuContainer.classList.contains("open")) {
+    // Close the slider if it's not already closed
+    menuIcon.classList.remove("fa-times");
+    navlist.classList.remove("active");
+    slider.classList.remove("active");
+  }
 };
