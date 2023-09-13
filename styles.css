@@ -754,7 +754,7 @@ nav .fas {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .hero {
     margin-top: 25%;
   }
