@@ -68,17 +68,14 @@ window.addEventListener("scroll", function () {
 
 let menu = document.querySelector("#menu-icon");
 let navlist = document.querySelector(".navlist");
-let circleIcon = document.querySelector(".fa-circle-xmark");
 
 menu.onclick = () => {
   menu.classList.toggle("fa-bars");
   menu.classList.toggle("fa-times");
-  navlist.classList.toggle("active");
-  circleIcon.classList.toggle("fa-regular");
+  navlist.classList.toggle("active"); // Toggle the "active" class on navlist
 };
 
 window.onscroll = () => {
   menu.classList.remove("fa-times");
-  navlist.classList.remove("active");
-  circleIcon.classList.remove("fa-regular");
+  navlist.classList.remove("active"); // Remove the "active" class on scroll
 };
