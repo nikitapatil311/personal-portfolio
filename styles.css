@@ -751,7 +751,7 @@ nav .fas {
     display: block;
   }
   .main-content h1 {
-    font-size: 10px;
+    font-size: 15px;
     line-height: 1;
   }
   .main-content span {
@@ -759,6 +759,6 @@ nav .fas {
     line-height: 1;
   }
   .main-content p {
-    width: 50%;
+    width: 55%;
   }
 }
