@@ -65,7 +65,6 @@ window.addEventListener("scroll", function () {
 //   menu.classList.remove("fa-solid");
 //   navlist.classList.remove("active");
 // };
-
 let menu = document.querySelector("#menu-icon");
 let navlist = document.querySelector(".navlist");
 let circleIcon = document.querySelector(".fa-circle-xmark");
@@ -78,6 +77,7 @@ menu.onclick = () => {
 };
 
 window.onscroll = () => {
+  menu.classList.remove("fa-times");
   navlist.classList.remove("active");
   circleIcon.classList.remove("fa-regular");
 };
