@@ -740,6 +740,10 @@ nav .fas {
     margin-top: 15%;
   }
 
+  .navlist {
+    display: none;
+  }
+
   header {
     position: sticky;
   }
