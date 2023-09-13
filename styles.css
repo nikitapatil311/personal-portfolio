@@ -750,4 +750,15 @@ nav .fas {
   .navlist.active {
     display: block;
   }
+  .main-content h1 {
+    font-size: 30px;
+    line-height: 1;
+  }
+  .main-content span {
+    font-size: 30px;
+    line-height: 1;
+  }
+  .main-content p {
+    width: 50%;
+  }
 }
