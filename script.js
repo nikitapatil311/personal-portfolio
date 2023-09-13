@@ -37,10 +37,11 @@ const typed = new Typed(".multipleText", {
 });
 
 var sun = document.getElementById("sun");
+
 sun.onclick = function () {
   document.body.classList.toggle("light-theme");
   if (document.body.classList.contains("light-theme")) {
-    sun.src = "/moon.png";
+    sun.src = "/moon2.png";
   } else {
     sun.src = "/sun.png";
   }
