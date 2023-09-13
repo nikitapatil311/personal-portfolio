@@ -736,7 +736,7 @@ nav .fas {
 }
 
 @media (max-width: 400px) {
-  .main-content h4 {
-    margin-top: 10px;
+  .hero {
+    margin-top: 15%;
   }
 }
