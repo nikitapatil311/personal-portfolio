@@ -57,11 +57,11 @@ let menu = document.querySelector("#menu-icon");
 let navlist = document.querySelector(".navlist");
 
 menu.onclick = () => {
-  menu.classList.toggle("bx-x");
+  menu.classList.toggle("fa-solid");
   navlist.classList.toggle("active");
 };
 
 window.onscroll = () => {
-  menu.classList.remove("bx-x");
+  menu.classList.remove("fa-solid");
   navlist.classList.remove("active");
 };
