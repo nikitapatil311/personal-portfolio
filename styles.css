@@ -716,7 +716,7 @@ nav .fas {
   .navlist {
     position: absolute;
     top: 100%;
-    right: 0;
+    right: -100%;
     width: 255px;
     min-height: 100vh;
     display: flex;
