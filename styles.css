@@ -32,6 +32,11 @@ body {
   color: var(--darkmode-color);
 }
 /* here */
+#sun {
+  width: 30px;
+  cursor: pointer;
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -90,6 +95,15 @@ section {
   margin: 20px 0px 20px;
   line-height: 1.2;
 }
+.main-content span {
+  background: var(--darkmode-background);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  width: 300px;
+}
 
 .main-content p {
   font-size: 20px;
@@ -123,7 +137,7 @@ section {
   box-shadow: 0 0 20px var(--darkmode-color);
 }
 
-.btn {
+.btn1 {
   display: inline-block;
   padding: 11px 26px;
   background: var(--darkmode-solid-border);
@@ -132,6 +146,11 @@ section {
   font-size: 15px;
   font-weight: 600;
   transition: all 0.5s ease;
+}
+
+header.sticky {
+  background: var(--darkmode-background-color);
+  padding: 16px 16%;
 }
 
 html {
@@ -192,10 +211,7 @@ nav ul li a::after {
 nav ul li a:hover::after {
   width: 100%;
 }
-#sun {
-  width: 30px;
-  cursor: pointer;
-}
+
 .logo {
   font-size: 32px;
   font-weight: bold;
@@ -492,12 +508,19 @@ nav ul li a:hover::after {
 }
 
 .btn.btn2 {
+  margin-top: 20px;
   display: inline-block;
   color: var(--darkmode-color);
   text-decoration: none;
   font-size: 18px;
   position: relative;
   cursor: pointer;
+  display: inline-block;
+  padding: 11px 26px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.5s ease;
 }
 
 .btn.btn2::after {
@@ -641,6 +664,21 @@ nav .fas {
   }
   .header-text span {
     font-size: 13px;
+  }
+  .logo {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1700px) {
+  header {
+    padding: 20px 8%;
+  }
+  header .sticky {
+    padding: 14px 8%;
+  }
+  section {
+    padding: 90px 8% 80px;
   }
   .logo {
     font-size: 28px;
