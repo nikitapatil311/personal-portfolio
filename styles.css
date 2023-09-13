@@ -737,7 +737,7 @@ nav .fas {
 
 @media (max-width: 400px) {
   .hero {
-    margin-top: 15%;
+    margin-top: 25%;
   }
 
   header {
@@ -751,11 +751,11 @@ nav .fas {
     display: block;
   }
   .main-content h1 {
-    font-size: 30px;
+    font-size: 10px;
     line-height: 1;
   }
   .main-content span {
-    font-size: 30px;
+    font-size: 12px;
     line-height: 1;
   }
   .main-content p {
