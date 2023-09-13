@@ -69,17 +69,30 @@ window.addEventListener("scroll", function () {
 let menu = document.querySelector("#menu-icon");
 let navlist = document.querySelector(".navlist");
 let circleIcon = document.querySelector(".fa-circle-xmark");
+let isOpen = false;
 
 menu.onclick = () => {
-  menu.classList.toggle("fa-bars");
-  menu.classList.toggle("fa-times");
-  navlist.classList.toggle("active");
-  circleIcon.classList.toggle("fa-regular");
+  isOpen = !isOpen;
+  if (isOpen) {
+    menu.classList.remove("fa-bars");
+    menu.classList.add("fa-times");
+    navlist.classList.add("active");
+    circleIcon.classList.remove("fa-regular");
+  } else {
+    menu.classList.add("fa-bars");
+    menu.classList.remove("fa-times");
+    navlist.classList.remove("active");
+    circleIcon.classList.add("fa-regular");
+  }
 };
 
 window.onscroll = () => {
-  menu.classList.toggle("fa-bars");
-  menu.classList.remove("fa-times");
-  navlist.classList.remove("active");
-  circleIcon.classList.remove("fa-regular");
+  // Close the menu when the user scrolls
+  if (isOpen) {
+    menu.classList.add("fa-bars");
+    menu.classList.remove("fa-times");
+    navlist.classList.remove("active");
+    circleIcon.classList.add("fa-regular");
+    isOpen = false;
+  }
 };
