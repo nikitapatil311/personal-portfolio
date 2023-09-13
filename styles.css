@@ -673,6 +673,25 @@ nav .fas {
   }
 }
 
+@media (max-width: 1000px) {
+  header {
+    padding: 20px 8%;
+  }
+  header .sticky {
+    padding: 14px 8%;
+  }
+  section {
+    padding: 90px 8% 80px;
+  }
+  .logo {
+    font-size: 28px;
+  }
+  .hero {
+    height: 90vh;
+    background-position: center;
+  }
+}
+
 @media (max-width: 1700px) {
   header {
     padding: 20px 8%;
