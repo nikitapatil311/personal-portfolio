@@ -42,9 +42,9 @@ var sun = document.getElementById("sun");
 sun.onclick = function () {
   document.body.classList.toggle("light-theme");
   if (document.body.classList.contains("light-theme")) {
-    sun.src = "/moon2.png";
+    sun.src = "/img/moon2.png";
   } else {
-    sun.src = "/sun.png";
+    sun.src = "/img/sun.png";
   }
 };
 
