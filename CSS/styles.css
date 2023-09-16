@@ -48,7 +48,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 40px 16%;
-  background: transparent;
+  background: var(--darkmode-background-color);
   transition: all 0.5s ease;
 }
 .navlist {
