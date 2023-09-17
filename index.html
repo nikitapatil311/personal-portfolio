@@ -2,364 +2,753 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="N-icon" href="nlogo.png">
-    <title> Personal Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="./style/swiper.css">
 
     <!--==================== CSS ====================-->
-    <link rel="stylesheet" href="CSS/styles.css" />
-    <script src="https://kit.fontawesome.com/93f888ff34.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style/styles.css">
+
+    <title>Nikita</title>
 </head>
 
 <body>
-
     <!--==================== HEADER ====================-->
-    <header>
-        <a href="/" class="logo">Portfolio</a>
-        <i id="menu-icon" class="fa-solid fa-bars fas"></i>
-        <ul class="navlist">
-            <li><a href="/">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div>
-            <img src="img/sun.png" id="sun" alt=" toggle  " />
-        </div>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Nikita S Patil</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="uil uil-briefcase-alt nav__icon"></i>Services
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i>Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i>Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <!-- Theme change button -->
+
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
     </header>
 
-    <!--==================== section ====================-->
-    <section class="hero" id="home">
-        <div class="main-content">
-            <div>
-                <h4>Hello, I'm</h4>
-                <h1>Nikita S Patil <br>
-                    <span class="multipleText"></span>
-                </h1>
-                <p>
-                    Enthusiastic frontend developer, B.E. (E&C) graduate from VTU
-                    University aiming to secure a Frontend Developer position,<br />
-                    eager to acquire firsthand experience in web development and play
-                    a pivotal role in pioneering web solutions within a dynamic and
-                    rapidly changing environment.
-                </p>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/nikita-s-patil/"><i class="fa-brands fa-linkedin"></i> </a>
-                    <a href="https://github.com/nikitapatil311"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.instagram.com/nikita_.s._patil/"><i class="fa-brands fa-instagram"></i></a>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/nikita-s-patil/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/nikitapatil311" target="_blank" class="home__social-icon">
+                            <i class="uil uil-instagram-alt"></i>
+                        </a>
+                        <a href="https://github.com/nikitapatil311" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                    </div>
 
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                <image class="home__blob-img" x="" xlink:href="/images/Nikita.jpg" />
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'am Nikita</h1>
+                        <h3 class="home__subtitle">Frontend Developer</h3>
+                        <p class="home__description">Enthusiastic frontend developer, B.E. (E&C) graduate from VTU
+                            University aiming to secure a Frontend Developer position,<br />
+                            eager to acquire firsthand experience in web development and play
+                            a pivotal role in pioneering web solutions within a dynamic and
+                            rapidly changing environment.</p>
+                        <a href="#contact" class="button button--flex home__button">
+                            Contact Me<i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="main-btn1">
-                    <a href="https://www.linkedin.com/in/nikita-s-patil/" class="btn btn2 ">Hire Me </a><br>
-                    <a href="docs/Nikita's Resume.pdf" class="btn btn2">Download CV <i
-                            class="fa-solid fa-download fas"></i></a>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- <div id="header">
-        <div class="container">
-            <nav>
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Introduction</span>
 
-                <a href="/" class="logo">Portfolio</a>
-                <ul class="navlist">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <div>
-                    <img src="img/sun.png" id="sun" alt=" toggle  " />
-                </div>
-
-            </nav>
-
-            <div class="header-text">
-
-                <h4>Hello, I'm</h4>
-                <h1>Nikita S Patil <br>
-                    <span class="multipleText"></span>
-                </h1>
-                <p>
-                    Enthusiastic frontend developer, B.E. (E&C) graduate from VTU
-                    University aiming to secure a Frontend Developer position,<br />
-                    eager to acquire firsthand experience in web development and play
-                    a pivotal role in pioneering web solutions within a dynamic and
-                    rapidly changing environment.
-                </p>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/nikita-s-patil/"><i class="fa-brands fa-linkedin"></i> </a>
-                    <a href="https://github.com/nikitapatil311"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.instagram.com/nikita_.s._patil/"><i class="fa-brands fa-instagram"></i></a>
-
-                </div>
-                <div class="main-btn1">
-                    <a href="https://www.linkedin.com/in/nikita-s-patil/" class="btn btn2 ">Hire Me </a><br>
-                    <a href="docs/Nikita's Resume.pdf" class="btn btn2">Download CV <i
-                            class="fa-solid fa-download fas"></i></a>
-                </div>
-
-
-
-            </div>
-        </div>
-    </div>
-    </div> -->
-
-
-
-    <!--==================== about ====================-->
-
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="img/MyPic.jpg" alt="profile-pic" />
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p class="sub-p">
-                        🚀 Embarked on a 2-year journey in the captivating world of
-                        frontend at L&T Technology Services and Harman Connected
-                        Services! 🌟
-                        <br />
-                        🎨 Equipped with HTML, CSS, JS, React, Next.js, Node.js and
-                        MongoDB, I've turned visions into vibrant websites. Crafting
-                        user-friendly designs that resonate.
-                        <br />
-                        🌐 Thriving in collaborative ecosystems, where ideas thrive.
-                        Whether with colleagues or pixels, my journey has been woven
-                        with vibrant connections.
-                        <br />
-                        🚀 From agile development to innovative pulses, I've turned
-                        concepts into realities. Every project hones my artistry,
-                        creating standout user experiences.
-                        <br />
-                        💡 Curiosity guides me, creativity fuels me. Passion for
-                        enhancing web presence drives me, blending beauty with
-                        function seamlessly.
-                        <br />
-                        💬 Let's connect and explore the world of web enchantment!
-                        🎨✨<br />
+            <div class="about__container container grid">
+                <img src="/images/Nikita.jpg" alt="" class="about__img">
+                <div class="about__data">
+                    <p class="about__description">
+                        Embarked on a 2-year journey in the captivating world of frontend at L&T Technology Services and
+                        Harman Connected Services!
+                        Equipped with HTML, CSS, JS, React, Next.js, Node.js and MongoDB, I've turned visions into
+                        vibrant websites.
+                        From agile development to innovative pulses, I've turned concepts into realities.
+                        Let's connect and explore the world of web enchantment!
                     </p>
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">
-                            Skills
-                        </p>
-                        <p class="tab-links" onclick="opentab('experience')">
-                            Experience
-                        </p>
-                        <p class="tab-links" onclick="opentab('education')">
-                            Education
-                        </p>
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">03+</span>
+                            <span class="about__info-name">Years <br> experience</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">02+</span>
+                            <span class="about__info-name">Completed <br> certifications</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">01+</span>
+                            <span class="about__info-name">companies<br>worked</span>
+                        </div>
                     </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>HTML</span><br />Experienced</li>
-                            <li><span>CSS</span><br />Experienced</li>
-                            <li><span>JavaScript</span><br />Intermediate</li>
-                            <li><span>React</span><br />Intermediate</li>
-                            <li><span>TypeScript</span><br />Basic</li>
-                            <li><span>Next.js</span><br />Intermediate</li>
-                            <li><span>Tailwind CSS</span><br />Intermediate</li>
-                            <li><span>MongoDB</span><br />Intermediate</li>
-                            <li><span>Node JS</span><br />Intermediate</li>
-                            <li><span>Git and GitHub</span><br />Intermediate</li>
-                        </ul>
+
+                    <div class="about__buttons">
+                        <a download="" href="/docs/Nikita's Resume.pdf" class="button button--flex">
+                            Download CV<i class="uil uil-download-alt button__icon"></i>
+                        </a>
                     </div>
-                    <!--==================== Skills ====================-->
+                </div>
+            </div>
+        </section>
 
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
 
-                    <!-- <div class="skills__content skills__open">
+            <div class="skills__container container grid">
+                <div>
+                    <!--==================== SKILL-1 ====================-->
+                    <div class="skills__content skills__open">
                         <div class="skills__header">
                             <i class="uil uil-analytics skills__icon"></i>
                             <div>
-                                <h1 class="skills__title">Frontend Developer</h1>
+                                <h1 class="skills__title">Frontend Engineer</h1>
                                 <span class="skills__subtitle">More than 1 year</span>
-                            </div> -->
-                    <!--==================== skills ====================-->
+                            </div>
 
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li>
-                                <span>Jul 2021- Sep 2022</span><br />Junior Software
-                                Engineer at L&T Technology Services.
-                            </li>
-                            <li>
-                                <span>Feb 2019- Jul 2021</span><br />Associate Software
-                                Engineer at Harman Connected Services.
-                            </li>
-                        </ul>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__tab"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__tab"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__tab"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Git and GitHub</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__sql"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">MongoDB</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__google"></span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li>
-                                <span>July 2014- July 2018</span><br />Bachelors Degree in
-                                Electronics and Communication at Bangalore Institute of
-                                Technology
-                            </li>
-                        </ul>
+                    <!--==================== SKILLS 3 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Test Engineer</h1>
+                                <span class="skills__subtitle">More than 2 years</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">SDLC</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Bug Tracking</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Jira</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Windows and Linux</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__wordpress"></span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
 
-    <!--==================== services ====================-->
-    <div id="services">
-        <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification__section">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">My personal journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        Work
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <!--==================== QUALIFICATION 1 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Full Stack Web Development </h3>
+                                <span class="qualification__subtitle">Spiced Academy, Berlin</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    may 2023 - August 2023
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 2 ====================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Bachelor of Engineering </h3>
+                                <span class="qualification__subtitle">VTU, India</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2014 - 201
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                    <div class="qualification__content" data-content id="work">
+                        <!--==================== QUALIFICATION 1 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Software Engineer</h3>
+                                <span class="qualification__subtitle">Software Engineer, India</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2021 - 2022
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 2 ====================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Associate Product Engineer</h3>
+                                <span class="qualification__subtitle">Harman Connected Services, India</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2019 - 2020
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">What I offer</span>
+
+            <div class="services__container container grid">
+                <!--==================== SERVICES 1 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-arrow skills__icon"></i>
+                        <h3 class="services__title">Web Development<br></h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        View more
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Web Development <br></h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Developed internal inventory app using Next.js and MongoDB, integrating barcode
+                                        scanning for real-time tracking.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Managed the inventory data using MongoDB, reducing the risk of items being
+                                        misplaced.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Created user guides and technical documentation for onboarding new members.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p> HTML5, CSS3, JavaScript, Next.js, MongoDB, Redux, Tailwind CSS, Git. </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SERVICES 2 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-money-bill skills__icon"></i>
+                        <h3 class="services__title">UI Developer<br> </h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        View more
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">UI Developer<br></h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Contributed to interactive e-commerce web pages, translating (Figma, Mockup)
+                                        wireframes to dynamic code.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Collaborated with teams using Git/GitHub for version control, code reviews and
+                                        conflict resolution.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Technologies used: HTML5, CSS3, Git, JIRA.
+
+                                    </p>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SERVICES 3 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-bug services__icon"></i>
+                        <h3 class="services__title">Agile Tester<br></h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        View more
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Agile Tester<br></h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Performed various testing types in Agile environment, including smoke,
+                                        functional, and regression testing on Windows and Linux OS.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Expertise in bug reporting and tracking using JIRA, involved in debugging and
+                                        root cause analysis.</p>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent works</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== PORTFOLIO 1 ====================-->
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/images/portfolio1.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Any-List Grocery Shopping App 🛍️</h3>
+                            <p class="portfolio__description">A shopping app to revolutionise shopping convenience.
+                                Which allows you to shop for groceries online and even make quick offline purchases by
+                                scanning items and paying on the go.
+
+                            </p>
+                            <a href="https://any-list.vercel.app/"
+                                class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 2 ====================-->
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/images/rickandmorty.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Ricky and Morty</h3>
+                            <p class="portfolio__description">The Rick and Morty App is a collaborative project that
+                                pays tribute to the iconic animated series. It features a collection of character cards,
+                                each providing unique insights into the diverse cast of the show.With 42 pages of cards,
+                                there's no shortage of content to explore!.</p>
+                            <a href="https://ricky-morty-app-khaki.vercel.app/"
+                                class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 3 ====================-->
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/images/turio.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Tourio App
+                            </h3>
+                            <p class="portfolio__description">Tourio App is designed to provide a user-friendly
+                                interface for managing travel places. Each place entry includes essential details such
+                                as the place's name, description, image, and location.</p>
+                            <a href="https://tourio-app-theta.vercel.app/"
+                                class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- add arrows-->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+
+            </div>
+
+        </section>
+
+        <!--==================== PROJECT IN MIND ====================-->
+        <section class="project section">
+
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">You have a new project?</h2>
+                        <p class="project__description">Contact me now and get discounts on your Web development
+                            projects.</p>
+                        <a href="#contact" class="button button--flex button--white">Contact me
+                            <i class="uil uil-message project__icon button__icon"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
                 <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Development</h2>
-                    <p>
-                        Developed internal inventory app using Next.js and MongoDB,
-                        integrating barcode scanning for real-time tracking. Managed
-                        the inventory data using MongoDB, reducing the risk of items
-                        being misplaced. Created user guides and technical
-                        documentation for onboarding new members.
-                    </p>
-                    Technologies used: HTML5, CSS3, JavaScript, Next.js, MongoDB,
-                    Redux, Tailwind CSS, Git.
-                    <a href="#"></a>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">E-mail</h3>
+                            <span class="contatc__subtitle">nikitaspatil311@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contatc__subtitle">Berlin, Germany</span>
+                        </div>
+                    </div>
                 </div>
 
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">E-mail</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Subject</label>
+                        <input type="text" class="contact__input">
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Description</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="#" class="button button--flex">
+                            Send message
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+
+        <div class="footer__bg">
+            <div class="footer__container container grid">
                 <div>
-                    <i class="fa-solid fa-crop"></i>
-
-                    <h2>UI Developer</h2>
-                    <p>
-                        Contributed to interactive e-commerce web pages, translating
-                        (Figma, Mockup) wireframes to dynamic code. Collaborated with
-                        teams using Git/GitHub for version control, code reviews and
-                        conflict resolution. Technologies used: HTML5, CSS3, Git,
-                        JIRA.
-                    </p>
-                    <a href="#"></a>
+                    <h1 class="footer__title">Nikita Patil</h1>
+                    <span class="footer__subtitle">Frontend Developer</span>
                 </div>
 
-                <div>
-                    <i class="fa-solid fa-bug"></i>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
 
-                    <h2>Agile Tester</h2>
-                    <p>
-                        Performed various testing types in Agile environment,
-                        including smoke, functional, and regression testing on Windows
-                        and Linux OS. Expertise in bug reporting and tracking using
-                        JIRA, involved in debugging and root cause analysis.
-                    </p>
-                    <a href="#"></a>
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/nikita-s-patil/" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                    <a href="https://github.com/nikitapatil311" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram-alt"></i>
+                    </a>
+                    <a href="https://github.com/nikitapatil311" target="_blank" class="footer__social">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+
+
+
                 </div>
             </div>
+            <p class="footer__copy">&#169; Nikita. All rights reserved.</p>
         </div>
-    </div>
+    </footer>
 
-    <!--==================== portfolio ====================-->
-    <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">Personal Projects</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="/img/groceryGif.png" alt="Project 1" class="project-img" />
-                    <div class="layer">
-                        <h3>Any-List Grocery Shopping App 🛍️</h3>
-                        <p>
-                            A shopping app to revolutionise shopping convenience. Which
-                            allows you to shop for groceries online and even make quick
-                            offline purchases by scanning items and paying on the go.
-                        </p>
-                        <a href="https://any-list.vercel.app/"><i
-                                class="fa-solid fa-arrow-up-right-from-square"></i>Live
-                            Demo</a>
-                        <a href="https://github.com/nikitapatil311/AnyList"><i
-                                class="fa-solid fa-arrow-up-right-from-square"></i>Github code</a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="/img/rickandmorty.png" alt="Project 2" class="project-img" />
-                    <div class="layer">
-                        <h3>Ricky and Morty</h3>
-                        <p>
-                            The Rick and Morty App is a collaborative project that pays
-                            tribute to the iconic animated series. It features a
-                            collection of character cards, each providing unique
-                            insights into the diverse cast of the show. With 42 pages of
-                            cards, there's no shortage of content to explore!
-                        </p>
-                        <a href="https://ricky-morty-app-khaki.vercel.app/"><i
-                                class="fa-solid fa-arrow-up-right-from-square"></i>Live
-                            Demo</a>
-                        <a href="https://github.com/nikitapatil311/Ricky-Morty-App"><i
-                                class="fa-solid fa-arrow-up-right-from-square"></i>Github code</a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="/img/turio.png" alt="Project 3" class="project-img" />
-                    <div class="layer">
-                        <h3>Tourio App</h3>
-                        <p>
-                            Tourio App is designed to provide a user-friendly interface
-                            for managing travel places. Each place entry includes
-                            essential details such as the place's name, description,
-                            image, and location.
-                        </p>
-                        <a href="https://tourio-app-theta.vercel.app/"><i
-                                class="fa-solid fa-arrow-up-right-from-square"></i>Live
-                            Demo</a>
-                        <a href="https://github.com/nikitapatil311/tourio-app"><i
-                                class="fa-solid fa-arrow-up-right-from-square"></i>Github code</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
 
-    <!--==================== contact ====================-->
-    <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 class="" sub-title>Contact Me</h1>
-                    <p>
-                        <i class="fa-solid fa-paper-plane"></i>
-                        nikitaspatil311@gmail.com
-                    </p>
-                    <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/nikita-s-patil/"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/nikitapatil311"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://www.instagram.com/nikita_.s._patil/"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.youtube.com/channel/UCeKqFJSTvMcMUU4ivVf5LjA"><i
-                                class="fa-brands fa-youtube"></i></a>
-                    </div>
-                    <!-- <a href="/Nikita Patil.pdf" class="btn btn2">Download CV</a> -->
-                </div>
-                <div class="contact-right">
-                    <form>
-                        <input type="text" name="Name" placeholder="Your Name" required />
-                        <input type="email" name="email" placeholder="Your Email" required />
-                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="copywrite">
-            <p>
-                Copyright &#169; 2023 Nikita S Patil. All Rights Reserved
-                <i class="fa-solid fa-heart"></i>
-            </p>
-        </div>
-    </div>
-    <!--==================== script ====================-->
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script src="JS/script.js"></script>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="/js/swiper.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
