@@ -77,11 +77,11 @@ body.dark-theme {
   --text-color: hsl(var(--hue-color), 8%, 45%);
   --text-color-light: hsl(var(--hue-color), 8%, 75%);
   --input-color: hsl(var(--hue-color), 29%, 16%);
-  /* --body-color: hsl(var(--hue-color), 28%, 12%); */
+  --body-color: hsl(var(--hue-color), 28%, 12%);
   --container-color: hsl(var(--hue-color), 29%, 16%);
   --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
-  --body-color: #0f051e;
+
   /* --first-color-second: #f901fc;
   --title-color: linear-gradient(to left, #4200fc, #f901fc);
   --text-color: #fff;
