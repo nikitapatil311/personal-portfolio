@@ -518,7 +518,8 @@ img {
 
 .skills__percentage {
   display: block;
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
+  background-color: #fff;
 }
 
 .skills__html {
