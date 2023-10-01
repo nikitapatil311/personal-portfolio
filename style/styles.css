@@ -835,10 +835,10 @@ img {
 
 .project__bg {
   background-color: grey;
+  padding: 1rem;
   /* background-color: var(--first-color-second); */
 
   /* padding-top: 3rem; */
-  padding: 1rem;
 }
 
 .project__title {
