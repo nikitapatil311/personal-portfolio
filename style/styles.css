@@ -383,7 +383,8 @@ img {
 
 .button--white {
   background-color: #fff;
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: grey;
 }
 
 .button--white:hover {
