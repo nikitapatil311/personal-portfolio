@@ -634,7 +634,8 @@ img {
   display: inline-block;
   width: 13px;
   height: 13px;
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
+  background-color: grey;
   border-radius: 50%;
 }
 
@@ -642,7 +643,8 @@ img {
   display: block;
   width: 1px;
   height: 100%;
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
+  background-color: grey;
   transform: translate(6px, -7px);
 }
 
