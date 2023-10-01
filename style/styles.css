@@ -244,7 +244,8 @@ img {
 }
 
 .nav__link:hover {
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: rgb(214, 214, 214);
 }
 
 .nav__icon {
@@ -307,7 +308,8 @@ img {
 }
 
 .home__social-icon:hover {
-  color: var(--first-color-alt);
+  /* color: var(--first-color-alt); */
+  color: rgb(214, 214, 214);
 }
 
 .home__blob {
