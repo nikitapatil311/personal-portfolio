@@ -853,7 +853,7 @@ img {
 }
 
 /*==================== TESTIMONIAL ====================*/
-.testimonial__data,
+/* .testimonial__data,
 .testimonial__header {
   display: flex;
 }
@@ -890,7 +890,7 @@ img {
 
 .swiper-container .swiper-pagination-testimonial {
   bottom: 0;
-}
+} */
 
 /*==================== CONTACT ME ====================*/
 .contact__container {
