@@ -258,7 +258,8 @@ img {
 }
 
 .nav__close:hover {
-  color: var(--first-color-alt);
+  /* color: var(--first-color-alt); */
+  color: rgb(214, 214, 214);
 }
 
 /* show menu */
