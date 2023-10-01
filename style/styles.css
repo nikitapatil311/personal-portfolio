@@ -961,7 +961,7 @@ img {
 }
 
 .footer__bg {
-  background-color: var(--first-color-second);
+  background-color: grey;
   padding: 2rem 0 3rem;
 }
 
