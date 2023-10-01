@@ -831,7 +831,7 @@ img {
 .project__bg {
   /* background-color: var(--first-color-second); */
   background-color: grey;
-  padding-top: 3rem;
+  /* padding-top: 3rem; */
 }
 
 .project__title {
