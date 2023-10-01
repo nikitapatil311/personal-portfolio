@@ -98,7 +98,8 @@ body.dark-theme {
 }
 
 .change-theme:hover {
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: rgb(214, 214, 214);
 }
 
 /*==================== BASE ====================*/
