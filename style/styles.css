@@ -664,7 +664,7 @@ img {
 }
 
 .qualification__button.qualification__active {
-  color: var(--first-color);
+  color: rgb(214, 214, 214);
 }
 
 /*==================== SERVICES ====================*/
