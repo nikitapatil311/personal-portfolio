@@ -268,7 +268,8 @@ img {
 
 /* Active link */
 .active-link {
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: rgb(214, 214, 214);
 }
 
 /* Change background header */
