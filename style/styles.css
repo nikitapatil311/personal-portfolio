@@ -598,7 +598,8 @@ img {
 }
 
 .qualification__button:hover {
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: grey;
 }
 
 .qualification__icon {
