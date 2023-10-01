@@ -345,7 +345,8 @@ img {
 }
 
 .home__scroll-button {
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: grey;
   transition: 0.3s;
 }
 
