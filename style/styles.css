@@ -907,7 +907,8 @@ img {
 
 .contact__icon {
   font-size: 1.5rem;
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: grey;
   margin-right: var(--mb-0-75);
 }
 
