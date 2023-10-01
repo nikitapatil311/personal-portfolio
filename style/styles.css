@@ -1290,7 +1290,8 @@ img {
       background: none;
     }
     .project__container {
-      background-color: var(--first-color-second);
+      /* background-color: var(--first-color-second); */
+      background-color: grey;
       border-radius: 1rem;
       padding: 3rem 2.5rem 0;
       grid-template-columns: 1fr max-content;
