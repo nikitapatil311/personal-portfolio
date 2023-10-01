@@ -296,7 +296,8 @@ img {
 
 .home__social-icon {
   font-size: 1.25rem;
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: var(lightgrey);
 }
 
 .home__social-icon:hover {
