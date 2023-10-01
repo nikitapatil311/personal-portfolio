@@ -936,7 +936,8 @@ img {
 
 .contact__input {
   width: 100%;
-  background-color: var(--input-color);
+  /* background-color: var(--input-color); */
+  background-color: rgb(181, 181, 181);
   color: var(--text-color);
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
