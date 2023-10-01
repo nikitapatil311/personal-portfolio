@@ -762,12 +762,14 @@ img {
   top: 1rem;
   right: 1rem;
   font-size: 1.5rem;
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: grey;
   cursor: pointer;
 }
 
 .services__modal-icon {
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: grey;
   margin-right: var(--mb-0-25);
 }
 
