@@ -513,13 +513,13 @@ img {
 
 .skills__bar {
   /* background-color: var(--first-color-lighter); */
-  background-color: grey;
+  background-color: #fff;
 }
 
 .skills__percentage {
   display: block;
   /* background-color: var(--first-color); */
-  background-color: #fff;
+  background-color: grey;
 }
 
 .skills__html {
