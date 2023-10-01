@@ -829,8 +829,9 @@ img {
 }
 
 .project__bg {
-  /* background-color: var(--first-color-second); */
   background-color: grey;
+  /* background-color: var(--first-color-second); */
+
   /* padding-top: 3rem; */
   padding: 1rem;
 }
