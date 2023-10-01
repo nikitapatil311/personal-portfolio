@@ -813,7 +813,8 @@ img {
 }
 
 .swiper-pagination-bullet-active {
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
+  background-color: grey;
 }
 
 .swiper-button-prev,
