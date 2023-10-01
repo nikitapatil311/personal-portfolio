@@ -455,6 +455,11 @@ img {
 
 /*==================== SKILLS ====================*/
 
+.skills section {
+  padding: 2rem 0 4rem;
+  margin-bottom: 40px;
+}
+
 .skills__container {
   row-gap: 0;
 }
