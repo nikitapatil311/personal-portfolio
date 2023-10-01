@@ -381,7 +381,8 @@ img {
 }
 
 .button:hover {
-  background-color: var(--first-color-alt);
+  /* background-color: var(--first-color-alt); */
+  color: rgb(214, 214, 214);
 }
 
 .button__icon {
