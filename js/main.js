@@ -92,22 +92,21 @@ modalCloses.forEach((modalClose) => {
 });
 // ==========code========
 
-document
-  .getElementById("ui-developer-box")
-  .addEventListener("click", function () {
+// JavaScript to handle clicking on the service boxes
+document.querySelectorAll(".services__content").forEach(function (box) {
+  box.addEventListener("click", function () {
     var modal = this.querySelector(".services__modal");
     modal.classList.toggle("active-modal");
   });
 
-// Add a similar event listener for closing the modal
-document
-  .querySelectorAll(".services__modal-close")
-  .forEach(function (closeButton) {
-    closeButton.addEventListener("click", function (event) {
+  // Add a similar event listener for closing the modal
+  box
+    .querySelector(".services__modal-close")
+    .addEventListener("click", function (event) {
       event.stopPropagation(); // Prevent the modal from closing when the close button is clicked
       this.closest(".services__modal").classList.remove("active-modal");
     });
-  });
+});
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 let swiperPortfolio = new Swiper(".portfolio__container", {
