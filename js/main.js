@@ -128,26 +128,26 @@ let swiperPortfolio = new Swiper(".portfolio__container", {
 });
 
 /*==================== TESTIMONIAL ====================*/
-let swiperTestimonial = new Swiper(".testimonial__container", {
-  loop: true,
-  grabCursor: true,
-  spaceBetween: 48,
+// let swiperTestimonial = new Swiper(".testimonial__container", {
+//   loop: true,
+//   grabCursor: true,
+//   spaceBetween: 48,
 
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-    dynamicBullets: true,
-  },
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//     dynamicBullets: true,
+//   },
 
-  breakpoints: {
-    568: {
-      slidesPerView: 2,
-    },
-  },
+//   breakpoints: {
+//     568: {
+//       slidesPerView: 2,
+//     },
+//   },
 
-  /* mousewheel: true,
+/* mousewheel: true,
   keyboard: true, */
-});
+//});
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll("section[id]");
@@ -172,6 +172,23 @@ function scrollActive() {
   });
 }
 window.addEventListener("scroll", scrollActive);
+
+// =============CODE=====================
+const scrollButton = document.getElementById("scroll-button");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 100) {
+    // Show the scroll-up button
+    scrollButton.innerHTML =
+      '<i class="uil uil-arrow-up scroll-button__icon"></i>';
+    scrollButton.href = "#top";
+  } else {
+    // Show the scroll-down button
+    scrollButton.innerHTML =
+      '<i class="uil uil-arrow-down scroll-button__icon"></i>';
+    scrollButton.href = "#bottom";
+  }
+});
 
 /*==================== CHANGE BACKGROUND HEADER ====================*/
 function scrollHeader() {
